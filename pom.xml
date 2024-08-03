@@ -8,15 +8,18 @@
 		<version>3.3.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>party.zonarius</groupId>
 	<artifactId>hermes</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hermes</name>
 	<description>Posts messages from REST to Discord</description>
+
 	<properties>
 		<java.version>22</java.version>
 		<start-class>party.zonarius.hermes.HermesApplication</start-class>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
