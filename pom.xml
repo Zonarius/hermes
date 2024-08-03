@@ -10,12 +10,12 @@
 
 	<scm>
 		<developerConnection>scm:git:git@github.com:Zonarius/hermes.git</developerConnection>
-	  <tag>hermes-1.0.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<groupId>party.zonarius</groupId>
 	<artifactId>hermes</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>hermes</name>
 	<description>Posts messages from REST to Discord</description>
 
