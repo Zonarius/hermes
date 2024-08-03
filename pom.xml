@@ -9,6 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
+	<scm>
+		<developerConnection>scm:git:git@github.com:Zonarius/hermes.git</developerConnection>
+	</scm>
+
 	<groupId>party.zonarius</groupId>
 	<artifactId>hermes</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -44,6 +48,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>3.1.1</version>
 			</plugin>
 		</plugins>
 	</build>
